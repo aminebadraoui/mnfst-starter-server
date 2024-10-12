@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Test route
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to the Sandra App api 2 ' });
+    res.json({ message: 'Welcome to the MNFST Starter App api ' });
 });
 
 // Add more routes here
